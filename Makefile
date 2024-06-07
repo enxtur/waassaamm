@@ -6,5 +6,5 @@ setup:
 clean:
 	@bin/clean.sh
 
-build:
+build: clean
 	@bin/build.sh
