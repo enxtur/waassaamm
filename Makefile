@@ -6,5 +6,8 @@ setup:
 clean:
 	@bin/clean.sh
 
-build: clean
+clean-build: clean
+	@bin/build.sh
+
+build:
 	@bin/build.sh
