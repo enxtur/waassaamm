@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #333; /* Dark grey text for better readability */
+  width: 400px; /* Fixed width */
+  height: 600px; /* Fixed height */
+  margin: 0 auto; /* Center the app container */
+  overflow: auto; /* Enable scroll for overflow content */
+}
+
+/* Header styles */
+.header {
+  background-color: #4285f4; /* Google's blue */
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+/* Content styles */
+.content {
+  margin: 20px 0;
+}
+
+/* Button styles */
+.button {
+  background-color: #4285f4; /* Google's blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #357ae8; /* Darker blue on hover */
+}
+
+/* Link styles */
+a {
+  color: #4285f4; /* Google's blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
